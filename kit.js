@@ -18,7 +18,7 @@
       ["skint", "Skint"],
       ["broke-britain", "Broke Britain"],
       ["no-loans", "No Loans"],
-      ["bank-of-mum-and-dad", "Bank of Mum & Dad"],
+      ["bank-of-dad", "Bank of Mum & Dad"],
       ["break-the-cycle", "Break the Cycle"],
       ["loan-scam-graphic", "Loan Scam Alert"]
     ],
