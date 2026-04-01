@@ -33,6 +33,8 @@
     ],
     "Work & Study": [
       ["uk-jobs-guide", "UK Jobs Guide"],
+      ["jobs-abroad", "🌍 Jobs Abroad"],
+      ["escape-uk", "✈️ Escape the UK"],
       ["student-guide", "Student Guide"],
       ["teacher", "Teacher"]
     ]
@@ -76,6 +78,8 @@
     '.kit-links a { color:#fff; background:#0f3460; padding:6px 12px; border-radius:4px; text-decoration:none; font-size:13px; }' +
     '.kit-links a:hover { background:#e94560; }' +
     '.kit-links a.kit-current { background:#e94560; pointer-events:none; }' +
+    '.kit-links a.kit-escape { background:#1a4d1a; }' +
+    '.kit-links a.kit-escape:hover { background:#e94560; }' +
     '#kit-email-bar { background:#e94560; padding:15px; text-align:center; font-family:Arial,sans-serif; }' +
     '#kit-email-bar p { color:#fff; margin:0 0 8px; font-weight:bold; font-size:16px; }';
 
@@ -86,7 +90,9 @@
     for (var i = 0; i < categories[cat].length; i++) {
       var slug = categories[cat][i][0];
       var label = categories[cat][i][1];
-      var cls = (slug === current) ? ' class="kit-current"' : '';
+      var isCurrent = (slug === current);
+      var isEscape = (slug === "escape-uk" || slug === "jobs-abroad");
+      var cls = isCurrent ? ' class="kit-current"' : (isEscape ? ' class="kit-escape"' : '');
       dropHTML += '<a href="' + base + slug + '/"' + cls + '>' + label + '</a>';
     }
     dropHTML += '</div>';
