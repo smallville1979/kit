@@ -11,6 +11,7 @@
                      ["emergency", "Emergency Help"],
                      ["free-stuff", "Free Stuff"],
                      ["help-now", "Help Now"],
+                     ["mental-health", "Mental Health Help"],
                      ["need-food", "Need Food"],
                      ["sausage-benefits", "Sausage Benefits"]
                    ],
