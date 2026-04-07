@@ -9,6 +9,7 @@
                      ["claimit", "Claim It"],
                      ["disability-guide", "Disability Guide"],
                      ["emergency", "Emergency Help"],
+                     ["free-stuff", "Free Stuff"],
                      ["help-now", "Help Now"],
                      ["need-food", "Need Food"],
                      ["sausage-benefits", "Sausage Benefits"]
