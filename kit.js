@@ -49,7 +49,7 @@
   // === 1 HOUR WARNING BAR ===
   var hourBar = document.createElement("div");
   hourBar.id = "kit-hour-bar";
-  hourBar.innerHTML = '⏱️ <strong>This site takes 1 hour to fully read and get help.</strong> Please click every link and view every page — don\'t skim it and give up.';
+  hourBar.innerHTML = '⏱️ <strong>This site takes 1 hour to fully read and get help never beg or struggle again .</strong> Please click every link and view every page — don\'t skim it and give up.';
 
   // === BOOKMARK BAR ===
   var bookmarkBar = document.createElement("div");
