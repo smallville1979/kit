@@ -13,7 +13,7 @@
       ["help-now", "Help Now"],
       ["mental-health", "Mental Health Help"],
       ["need-food", "Need Food"],
-      ["sausage-benefits", "Sausage Benefits"],
+      ["sausage-benefits", "Sausage Benefits"],h
       ["social-tariffs", "Cut Your Bills"]
     ],
     "Money & Debt": [
@@ -41,6 +41,9 @@
       ["student-guide", "Student Guide"],
       ["teacher", "Teacher"]
     ]
+    "Social Tariffs": [
+      ["social-tariffs", "Social Tariffs"]
+    ],
   };
 
   var current = window.location.pathname.split("/")[1] || "";
