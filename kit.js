@@ -13,7 +13,7 @@
       ["help-now", "Help Now"],
       ["mental-health", "Mental Health Help"],
       ["need-food", "Need Food"],
-      ["sausage-benefits", "Sausage Benefits"],h
+      ["sausage-benefits", "Sausage Benefits"],
       ["social-tariffs", "Cut Your Bills"]
     ],
     "Money & Debt": [
@@ -41,9 +41,6 @@
       ["student-guide", "Student Guide"],
       ["teacher", "Teacher"]
     ]
-    "Social Tariffs": [
-      ["social-tariffs", "Social Tariffs"]
-    ],
   };
 
   var current = window.location.pathname.split("/")[1] || "";
@@ -52,7 +49,7 @@
   // === 1 HOUR WARNING BAR ===
   var hourBar = document.createElement("div");
   hourBar.id = "kit-hour-bar";
-  hourBar.innerHTML = '⏱️ <strong>This site takes 1 hour to fully read and get help never beg or struggle again .</strong> Please click every link and view every page — don\'t skim it and give up.';
+  hourBar.innerHTML = '⏱️ <strong>This site takes 1 hour to fully read and get help — never beg or struggle again.</strong> Please click every link and view every page — don\'t skim it and give up.';
 
   // === BOOKMARK BAR ===
   var bookmarkBar = document.createElement("div");
