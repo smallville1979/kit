@@ -19,7 +19,7 @@
       ["social-tariffs", "Social Tariffs"]
     ],
     "Money & Debt": [
-      ["skint", "Skint"],
+      ["skint-but-sorted", "Skint But Sorted"],
       ["broke-britain", "Broke Britain"],
       ["no-loans", "No Loans"],
       ["smart-broke", "Smart Broke"],
@@ -134,9 +134,9 @@
   nav.id = "kit-nav";
   nav.innerHTML =
     '<div id="kit-nav-inner">' +
-    '<a href="' + base + 'skint/" id="kit-brand">🇬🇧 Skint But Sorted</a>' +
+    '<a href="' + base + 'skint-but-sorted/" id="kit-brand">🇬🇧 Skint But Sorted</a>' +
     '<div id="kit-nav-right">' +
-    '<a href="' + base + 'skint/" id="kit-home-btn">🏠 Home</a>' +
+    '<a href="' + base + 'skint-but-sorted/" id="kit-home-btn">🏠 Home</a>' +
     '<button id="kit-menu-btn">All Guides ▾</button>' +
     '</div>' +
     '</div>' +
