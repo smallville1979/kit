@@ -70,7 +70,8 @@
     '#kit-nav-right{display:flex;gap:8px;align-items:center;}' +
     '#kit-menu-btn{background:#e94560;color:#fff;border:none;padding:8px 16px;border-radius:5px;cursor:pointer;font-size:14px;font-weight:bold;}' +
     '#kit-home-btn{background:#0f3460;color:#fff;border:none;padding:8px 14px;border-radius:5px;cursor:pointer;font-size:13px;text-decoration:none;display:inline-block;}' +
-    '#kit-home-btn:hover,#kit-menu-btn:hover{opacity:0.85;}' +
+    '#kit-help-btn{background:#f5c518;color:#000;padding:8px 14px;border-radius:5px;font-size:13px;font-weight:bold;text-decoration:none;display:inline-block;}' +
+    '#kit-home-btn:hover,#kit-menu-btn:hover,#kit-help-btn:hover{opacity:0.85;}' +
     '#kit-dropdown{background:#16213e;padding:0 15px;display:none;}' +
     '#kit-dropdown.open{display:block!important;padding:15px;}' +
     '.kit-cat{color:#e94560;font-weight:bold;margin:12px 0 6px;font-size:13px;letter-spacing:1px;text-transform:uppercase;}' +
@@ -117,6 +118,7 @@
     '<span id="kit-brand" onclick="window.location=\'' + base + 'skint-but-sorted/\'">🇬🇧 Skint But Sorted</span>' +
     '<div id="kit-nav-right">' +
     '<a href="' + base + 'skint-but-sorted/" id="kit-home-btn">🏠 Home</a>' +
+    '<a href="help.html" id="kit-help-btn">❓ Help</a>' +
     '<button id="kit-menu-btn">All Guides ▾</button>' +
     '</div>' +
     '</div>' +
