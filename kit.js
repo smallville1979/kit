@@ -70,8 +70,8 @@
     '#kit-nav-right{display:flex;gap:8px;align-items:center;}' +
     '#kit-menu-btn{background:#e94560;color:#fff;border:none;padding:8px 16px;border-radius:5px;cursor:pointer;font-size:14px;font-weight:bold;}' +
     '#kit-home-btn{background:#0f3460;color:#fff;border:none;padding:8px 14px;border-radius:5px;cursor:pointer;font-size:13px;text-decoration:none;display:inline-block;}' +
-    '#kit-help-btn{background:#f5c518;color:#000;padding:8px 14px;border-radius:5px;font-size:13px;font-weight:bold;text-decoration:none;display:inline-block;}' +
-    '#kit-home-btn:hover,#kit-menu-btn:hover,#kit-help-btn:hover{opacity:0.85;}' +
+    '#kit--btn{background:#f5c518;color:#000;padding:8px 14px;border-radius:5px;font-size:13px;font-weight:bold;text-decoration:none;display:inline-block;}' +
+    '#kit-home-btn:hover,#kit-menu-btn:hover,#kit--btn:hover{opacity:0.85;}' +
     '#kit-dropdown{background:#16213e;padding:0 15px;display:none;}' +
     '#kit-dropdown.open{display:block!important;padding:15px;}' +
     '.kit-cat{color:#e94560;font-weight:bold;margin:12px 0 6px;font-size:13px;letter-spacing:1px;text-transform:uppercase;}' +
@@ -101,14 +101,14 @@
   // === HOUR BAR ===
   var hourBar = document.createElement("div");
   hourBar.id = "kit-hour-bar";
-  hourBar.innerHTML = '⏱️ <strong>This site takes 1 hour to fully read — click every link, view every page.</strong> Free help that actually works. Don\'t skim it.';
+  hourBar.innerHTML = '⏱️ <strong>This site takes 1 hour to fully read — click every link, view every page.</strong> Free  that actually works. Don\'t skim it.';
 
   // === BOOKMARK BAR ===
   var bookmarkBar = document.createElement("div");
   bookmarkBar.id = "kit-bookmark-bar";
   bookmarkBar.innerHTML =
     '<span>📌 Bookmark — <strong>Ctrl+D</strong> (Mac: Cmd+D)</span>' +
-    '<a href="https://wa.me/?text=This%20site%20helped%20me%20-%20read%20it%3A%20' + encodeURIComponent(currentURL) + '" target="_blank" rel="noopener">WhatsApp a mate →</a>';
+    '<a href="https://wa.me/?text=This%20site%20ed%20me%20-%20read%20it%3A%20' + encodeURIComponent(currentURL) + '" target="_blank" rel="noopener">WhatsApp a mate →</a>';
 
   // === NAV BAR ===
   var nav = document.createElement("div");
@@ -118,7 +118,7 @@
     '<span id="kit-brand" onclick="window.location=\'' + base + 'skint-but-sorted/\'">🇬🇧 Skint But Sorted</span>' +
     '<div id="kit-nav-right">' +
     '<a href="' + base + 'skint-but-sorted/" id="kit-home-btn">🏠 Home</a>' +
-    '<a href="help.html" id="kit-help-btn">❓ Help</a>' +
+    '<a href="https://smallville1979.github.io/help/" class="kit-btn">❓ Help</a> +
     '<button id="kit-menu-btn">All Guides ▾</button>' +
     '</div>' +
     '</div>' +
