@@ -118,7 +118,7 @@
     '<span id="kit-brand" onclick="window.location=\'' + base + 'skint-but-sorted/\'">🇬🇧 Skint But Sorted</span>' +
     '<div id="kit-nav-right">' +
     '<a href="' + base + 'skint-but-sorted/" id="kit-home-btn">🏠 Home</a>' +
-    '<a href="https://smallville1979.github.io/help/" class="kit-btn">❓ Help</a> +
+    '<a href="https://smallville1979.github.io/help/" class="kit-btn">❓ Help</a>' +
     '<button id="kit-menu-btn">All Guides ▾</button>' +
     '</div>' +
     '</div>' +
