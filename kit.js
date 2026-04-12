@@ -19,7 +19,7 @@
       ["social-tariffs", "Social Tariffs"]
     ],
     "Money & Debt": [
-      ["skint-but-sorted", "Home"],
+      ["skintbutsorted", "Home"],
       ["broke-britain", "Broke Britain"],
       ["no-loans", "No Loans"],
       ["smart-broke", "Smart Broke"],
@@ -115,9 +115,9 @@
   nav.id = "kit-nav";
   nav.innerHTML =
     '<div id="kit-nav-inner">' +
-    '<span id="kit-brand" onclick="window.location=\'' + base + 'skint-but-sorted/\'">🇬🇧 Skint But Sorted</span>' +
+    '<span id="kit-brand" onclick="window.location=\'' + base + 'skintbutsorted/\'">🇬🇧 Skint But Sorted</span>' +
     '<div id="kit-nav-right">' +
-    '<a href="' + base + 'skint-but-sorted/" id="kit-home-btn">🏠 Home</a>' +
+    '<a href="' + base + 'skintbutsorted/" id="kit-home-btn">🏠 Home</a>' +
     '<a href="https://smallville1979.github.io/help/" class="kit-btn">❓ Help</a>' +
     '<button id="kit-menu-btn">All Guides ▾</button>' +
     '</div>' +
