@@ -29,6 +29,7 @@
       ["complaints-guide", "Complaints & Compo"],
       ["matched-betting", "Matched Betting"],
       ["cut-bills", "Cut Your Bills"],
+      ["eatcheap", "Eat Cheap"],
       ["payrise", "Ask For A Pay Rise"],
       ["amazon-reviews", "Amazon Review Schemes"]
     ],
