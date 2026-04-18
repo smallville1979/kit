@@ -101,7 +101,8 @@
     '#kit-mate-bar .btn-wa{background:#25D366;color:#fff;}' +
     '#kit-mate-bar .btn-sms{background:#e94560;color:#fff;}' +
     '#kit-mate-bar .btn-copy{background:#0f3460;color:#fff;cursor:pointer;border:none;font-size:14px;font-weight:bold;border-radius:5px;padding:9px 18px;}' +
-    '#kit-date-bar{background:#0d0d0d;padding:10px 15px;text-align:center;font-family:Arial,sans-serif;font-size:12px;color:#555;border-top:1px solid #1a1a1a;}' +
+    '#kit-date-bar{background:#0d0d0d;border-top:1px solid #1e1e1e;padding:10px 15px;text-align:center;font-family:Arial,sans-serif;font-size:12px;color:#555;}' +
+    '#kit-date-bar span{color:#444;}' +
     '#kit-kofi-bar{background:#1a1a2e;padding:20px 15px;text-align:center;font-family:Arial,sans-serif;border-top:3px solid #e94560;}' +
     '#kit-kofi-bar p{color:#ccc;margin:0 0 6px;font-size:14px;}' +
     '#kit-kofi-bar .kofi-sub{color:#888;font-size:13px;margin:0 0 12px;max-width:520px;display:block;margin-left:auto;margin-right:auto;}' +
@@ -131,7 +132,7 @@
     '<span id="kit-brand" onclick="window.location=\'' + base + 'skintbutsorted/\'">🇬🇧 Skint But Sorted</span>' +
     '<div id="kit-nav-right">' +
     '<a href="' + base + 'skintbutsorted/" id="kit-home-btn">🏠 Home</a>' +
-    '<a href="https://smallville1979.github.io/help/" class="kit-btn">❓ Help</a>' +
+    '<a href="https://smallville1979.github.io/help/" id="kit-home-btn">❓ Help</a>' +
     '<button id="kit-menu-btn">All Guides ▾</button>' +
     '</div>' +
     '</div>' +
@@ -163,10 +164,10 @@
     '<button class="btn-copy" id="kit-copy-btn">📋 Copy Link</button>' +
     '</div>';
 
-  // === DATE STAMP BAR ===
+  // === DATE BAR ===
   var dateBar = document.createElement("div");
   dateBar.id = "kit-date-bar";
-  dateBar.innerHTML = '📅 Information correct as of <strong style="color:#777;">18 April 2026</strong> &nbsp;·&nbsp; Always verify benefits, rates and services directly as things change. &nbsp;·&nbsp; <a href="https://smallville1979.github.io/help/" style="color:#555;text-decoration:underline;">Full glossary &amp; guide index</a>';
+  dateBar.innerHTML = '✅ Information correct as of <span>18th April 2026</span> &nbsp;·&nbsp; Always verify benefits, rates and phone numbers directly with the provider. &nbsp;·&nbsp; <a href="https://smallville1979.github.io/help/" style="color:#555;text-decoration:underline;">Full glossary & guide index</a>';
 
   // === KO-FI BAR ===
   var kofiBar = document.createElement("div");
