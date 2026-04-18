@@ -48,7 +48,8 @@
       ["free-ai-tools", "Free AI Tools"]
     ],
     "Health & Wellbeing": [
-      ["health-fitness", "Health & Fitness Cheap"]
+      ["health-fitness", "Health & Fitness Cheap"],
+      ["addiction", "Addiction & Recovery"]
     ],
     "Work & Study": [
       ["uk-jobs-guide", "UK Jobs Guide"],
