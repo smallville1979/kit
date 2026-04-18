@@ -31,7 +31,8 @@
       ["cut-bills", "Cut Your Bills"],
       ["eatcheap", "Eat Cheap"],
       ["payrise", "Ask For A Pay Rise"],
-      ["amazon-reviews", "Amazon Review Schemes"]
+      ["amazon-reviews", "Amazon Review Schemes"],
+      ["credit-guide", "Fix Your Credit File"]
     ],
     "Free Stuff & Hacks": [
       ["free-banking-dollars", "Free Banking"],
