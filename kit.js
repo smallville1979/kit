@@ -46,6 +46,9 @@
       ["free-streaming", "Free Streaming"],
       ["free-ai-tools", "Free AI Tools"]
     ],
+    "Health & Wellbeing": [
+      ["health-fitness", "Health & Fitness Cheap"]
+    ],
     "Work & Study": [
       ["uk-jobs-guide", "UK Jobs Guide"],
       ["jobs-abroad", "Jobs Abroad"],
