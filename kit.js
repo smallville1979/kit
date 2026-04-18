@@ -32,7 +32,8 @@
       ["eatcheap", "Eat Cheap"],
       ["payrise", "Ask For A Pay Rise"],
       ["amazon-reviews", "Amazon Review Schemes"],
-      ["credit-guide", "Fix Your Credit File"]
+      ["credit-guide", "Fix Your Credit File"],
+      ["side-hustles", "Side Hustles UK"]
     ],
     "Free Stuff & Hacks": [
       ["free-banking-dollars", "Free Banking"],
