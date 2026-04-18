@@ -30,6 +30,7 @@
       ["matched-betting", "Matched Betting"],
       ["cut-bills", "Cut Your Bills"],
       ["moving-house", "Moving House"],
+      ["renting-uc", "Renting on UC"],
       ["insurance-guide", "Insurance Guide"],
       ["paypal-trick", "PayPal Float Trick"],
       ["eatcheap", "Eat Cheap"],
