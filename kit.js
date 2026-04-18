@@ -101,6 +101,7 @@
     '#kit-mate-bar .btn-wa{background:#25D366;color:#fff;}' +
     '#kit-mate-bar .btn-sms{background:#e94560;color:#fff;}' +
     '#kit-mate-bar .btn-copy{background:#0f3460;color:#fff;cursor:pointer;border:none;font-size:14px;font-weight:bold;border-radius:5px;padding:9px 18px;}' +
+    '#kit-date-bar{background:#0d0d0d;padding:10px 15px;text-align:center;font-family:Arial,sans-serif;font-size:12px;color:#555;border-top:1px solid #1a1a1a;}' +
     '#kit-kofi-bar{background:#1a1a2e;padding:20px 15px;text-align:center;font-family:Arial,sans-serif;border-top:3px solid #e94560;}' +
     '#kit-kofi-bar p{color:#ccc;margin:0 0 6px;font-size:14px;}' +
     '#kit-kofi-bar .kofi-sub{color:#888;font-size:13px;margin:0 0 12px;max-width:520px;display:block;margin-left:auto;margin-right:auto;}' +
@@ -113,14 +114,14 @@
   // === HOUR BAR ===
   var hourBar = document.createElement("div");
   hourBar.id = "kit-hour-bar";
-  hourBar.innerHTML = '⏱️ <strong>This site takes 1 hour to fully read — click every link, view every page.</strong> Free  that actually works. Don\'t skim it.';
+  hourBar.innerHTML = '⏱️ <strong>This site takes 1 hour to fully read — click every link, view every page.</strong> Free help that actually works. Don\'t skim it.';
 
   // === BOOKMARK BAR ===
   var bookmarkBar = document.createElement("div");
   bookmarkBar.id = "kit-bookmark-bar";
   bookmarkBar.innerHTML =
     '<span>📌 Bookmark — <strong>Ctrl+D</strong> (Mac: Cmd+D)</span>' +
-    '<a href="https://wa.me/?text=This%20site%20ed%20me%20-%20read%20it%3A%20' + encodeURIComponent(currentURL) + '" target="_blank" rel="noopener">WhatsApp a mate →</a>';
+    '<a href="https://wa.me/?text=This%20site%20helped%20me%20-%20read%20it%3A%20' + encodeURIComponent(currentURL) + '" target="_blank" rel="noopener">WhatsApp a mate →</a>';
 
   // === NAV BAR ===
   var nav = document.createElement("div");
@@ -162,6 +163,11 @@
     '<button class="btn-copy" id="kit-copy-btn">📋 Copy Link</button>' +
     '</div>';
 
+  // === DATE STAMP BAR ===
+  var dateBar = document.createElement("div");
+  dateBar.id = "kit-date-bar";
+  dateBar.innerHTML = '📅 Information correct as of <strong style="color:#777;">18 April 2026</strong> &nbsp;·&nbsp; Always verify benefits, rates and services directly as things change. &nbsp;·&nbsp; <a href="https://smallville1979.github.io/help/" style="color:#555;text-decoration:underline;">Full glossary &amp; guide index</a>';
+
   // === KO-FI BAR ===
   var kofiBar = document.createElement("div");
   kofiBar.id = "kit-kofi-bar";
@@ -193,6 +199,7 @@
 
   // Bottom
   document.body.appendChild(mateBar);
+  document.body.appendChild(dateBar);
   document.body.appendChild(kofiBar);
   document.body.appendChild(emailBar);
 
